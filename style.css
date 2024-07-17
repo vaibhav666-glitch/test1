@@ -1,5 +1,5 @@
 html, body {
-    height: 100%; /* Full height for body */
+    height: 100%;
 }
 
 body {
@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column; /* Stack header, main, and footer */
+    flex-direction: column;
 }
 
 header {
@@ -16,6 +16,18 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content */
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
 }
 
 h1 {
